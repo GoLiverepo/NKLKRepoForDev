@@ -1,7 +1,8 @@
 #pragma strict
 
-function Start () {
-
+function Start () 
+{
+	renderer.material.color = Color.black;
 }
 
 function Update () 

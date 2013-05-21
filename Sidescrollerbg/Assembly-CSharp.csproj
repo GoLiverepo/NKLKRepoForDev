@@ -47,6 +47,11 @@
      <Compile Include="Assets\Test\LinkedSpriteManager.cs" />
      <Compile Include="Assets\Test\Sprite.cs" />
      <Compile Include="Assets\Test\SpriteManager.cs" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{DD7EED4F-8353-0F16-758F-4266618F1C06}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

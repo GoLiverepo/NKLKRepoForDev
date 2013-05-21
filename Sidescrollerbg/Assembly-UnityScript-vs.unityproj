@@ -48,9 +48,14 @@
      <Compile Include="Assets\Scripts\Enemymovement1.js" />
      <Compile Include="Assets\Scripts\Heromovement1.js" />
      <Compile Include="Assets\Scripts\Movement.js" />
+     <Compile Include="Assets\Scripts\NavigationScript\AutoLoad.js" />
+     <Compile Include="Assets\Scripts\NavigationScript\ChallengeScript.js" />
      <Compile Include="Assets\Scripts\NavigationScript\LoadHome.js" />
+     <Compile Include="Assets\Scripts\NavigationScript\OptionsScript.js" />
      <Compile Include="Assets\Scripts\NavigationScript\PlayScript.js" />
      <Compile Include="Assets\Scripts\NavigationScript\QuitScript.js" />
+     <Compile Include="Assets\Scripts\NavigationScript\StoreScript.js" />
+     <Compile Include="Assets\Scripts\NavigationScript\StoryScript.js" />
      <Compile Include="Assets\Scripts\Playercontroller.js" />
      <Compile Include="Assets\Scripts\Scripts\Herosprite.js" />
      <Compile Include="Assets\Scripts\Scripts\enemybulletcollision.js" />
@@ -63,6 +68,7 @@
      <Compile Include="Assets\Scripts\Scripts\raycast.js" />
      <Compile Include="Assets\Scripts\Scripts\secHerosprite.js" />
      <Compile Include="Assets\Scripts\Test\fire.js" />
+     <Compile Include="Assets\Scripts\TextScript\AutoText.js" />
      <Compile Include="Assets\Scripts\aniSprite.js" />
      <Compile Include="Assets\Scripts\animSprite.js" />
      <Compile Include="Assets\Scripts\enemyspawn.js" />
@@ -78,6 +84,10 @@
      <Compile Include="Assets\imported scripts\Heromovement.js" />
      <Compile Include="Assets\imported scripts\distancestp.js" />
      <Compile Include="Assets\imported scripts\secHeromovement.js" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

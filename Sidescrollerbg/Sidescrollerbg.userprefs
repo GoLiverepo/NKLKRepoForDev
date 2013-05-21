@@ -1,6 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Scripts\raycast.js">
+    <Files>
+      <File FileName="Assets\Scripts\Scripts\raycast.js" Line="37" Column="80" />
+      <File FileName="Assets\imported scripts\Enemyfire.js" Line="18" Column="4" />
+      <File FileName="Assets\Scripts\TextScript\AutoText.js" Line="16" Column="48" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

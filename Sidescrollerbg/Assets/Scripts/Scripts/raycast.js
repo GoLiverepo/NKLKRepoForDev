@@ -2,10 +2,13 @@
 static var attack : boolean = false;
 static var distance : int = 200;
 
+
+var clickSound: AudioClip;
+
 function Start () {
 
 }
-
+var newObject: GameObject;
 function Update () {
 //distance = Vector2.Distance(gameObject.FindWithTag("hero").transform.position,gameObject.FindWithTag("enemy").transform.position);
 
@@ -27,8 +30,12 @@ function Update () {
 	            //distance = val.dist(gameObject.FindWithTag("hero"),gameObject.FindWithTag("hit.collider.tag"));
 	            }*/
 	            
-	            if(hit.collider.tag == "enemy"){
-	            distancestp.herfire = 1;
+	            if(hit.collider.tag == "enemy")
+	            {
+	              	Instantiate (newObject, transform.position, transform.rotation);      
+	              	if(clickSound)
+	              		AudioSource.PlayClipAtPoint( clickSound, transform.position );
+	            	distancestp.herfire = 1;
 	            }
 	     	}
 	    }
