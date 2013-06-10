@@ -1,5 +1,7 @@
 #pragma strict
 
+
+
 function Start () {
 
 }
@@ -13,14 +15,16 @@ function OnCollisionEnter(collision : Collision){
 	{
 	Destroy(collision.gameObject);
 	}
-	if(collision.gameObject.tag == "enemy"){
-	Destroy(collision.gameObject);
+	if(collision.gameObject.tag == "enemy")
+	{
+//	enemeyAni.enemy.CrossFade("Dead");
+	Destroy(collision.gameObject/*, enemeyAni.enemy.clip.length*/);
 	Destroy(this.gameObject);
 	distancestp.enmyfire = 0;
 	Enemyspawn.initenemy = 1;
-	Enemymovement.speed = 1;
-	Heromovement.speed = 1;
-	secHeromovement.speed = 1;
+	permvlues.heroWalk= onGUI.herowalkSpeed;
+	permvlues.enemyWalk = onGUI.enemywalkSpeed;
+	permvlues.secHeroWalk = onGUI.secHeroWalk;
 	Movement.layerspeed = 0.2;
 	}
 	

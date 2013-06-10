@@ -6,11 +6,13 @@ function Start () {
 
 }
 
-function Update () {
-        if (initenemy == 1 && ene == 1) {
+function Update ()
+ {
+        if (initenemy == 1 && ene == 1) 
+        {
             var clone : Rigidbody = Instantiate(projectile, transform.position, transform.rotation);
             initenemy =0;
-            }
+        }
 }
 
    /* function OnTriggerEnter (other : Collider) {

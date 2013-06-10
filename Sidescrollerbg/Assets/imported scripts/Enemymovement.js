@@ -5,5 +5,5 @@ function Start () {
 }
 
 function Update () {
-transform.Translate(Vector3.forward*speed);
+transform.Translate(Vector3.forward* permvlues.enemyWalk );
 }

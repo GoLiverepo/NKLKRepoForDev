@@ -1,5 +1,7 @@
 #pragma strict
 
+
+
 function Start () {
 
 }
@@ -15,8 +17,9 @@ function OnCollisionEnter(collision : Collision){
 	}
 	if(collision.gameObject.tag == "hero")
 	{
+	//heroAni.hero.CrossFade("Dead");
 	distancestp.enmyfire = 0;
-	Destroy(collision.gameObject);
+	Destroy(collision.gameObject /*,heroAni.hero.clip.length*/);
 	Destroy(this.gameObject);
 	}
 	

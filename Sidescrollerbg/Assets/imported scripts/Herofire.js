@@ -8,7 +8,7 @@ function Start () {
 }
 
 function Update () {
-        if (distancestp.herfire == 1 && distancestp.distance < distancestp.Range) {
+        if (distancestp.herfire == 1 && distancestp.distance < permvlues.heroRnge) {
         	distancestp.herfire = 0;
             var clone : Rigidbody = Instantiate(projectile, transform.position, transform.rotation);
             clone.velocity = transform.forward * 90;

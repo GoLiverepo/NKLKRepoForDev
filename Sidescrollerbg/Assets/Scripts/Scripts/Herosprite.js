@@ -4,7 +4,8 @@ function Start () {
 
 }
 
-function Update () {
+function Update () 
+{
 var hewalk : functions;
 hewalk = GameObject.Find("Uniscripts").GetComponent("functions");
 	if(distancestp.distance < distancestp.Range)

@@ -4,6 +4,6 @@
 
 
 function Update () {
-	var newPos : Vector3 = target.position + new Vector3(85, 50, -306);
+	var newPos : Vector3 = target.position + new Vector3(85, 73, -306);
         transform.position = Vector3.Lerp(transform.position, newPos, Time.deltaTime*Speed);
 }

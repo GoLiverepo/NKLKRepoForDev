@@ -5,5 +5,5 @@ function Start () {
 }
 
 function Update () {
-gameObject.Find("Player").transform.Translate(Vector3.forward*speed);
+gameObject.Find("Player").transform.Translate(Vector3.forward * permvlues.heroWalk);
 }

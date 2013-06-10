@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_GENERICS;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;UNITY_4_0_0;UNITY_4_0;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;UNITY_4_1_2;UNITY_4_1;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -44,6 +44,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MonsterBaseTeam\Scripts\ButtonInterface.js" />
+     <Compile Include="Assets\MonsterBaseTeam\Scripts\CamControl.js" />
+     <Compile Include="Assets\MonsterBaseTeam\Scripts\StringHold.js" />
+     <Compile Include="Assets\MonsterBaseTeam\Scripts\color.js" />
+     <Compile Include="Assets\MonsterBaseTeam\Scripts\shadow.js" />
+     <Compile Include="Assets\MonsterBaseTeam\Scripts\wpcontrol.js" />
+     <Compile Include="Assets\MonsterBaseTeam\Scripts\wpgroup.js" />
+     <Compile Include="Assets\Scripts\Animation\animation.js" />
+     <Compile Include="Assets\Scripts\Animation\enemeyAni.js" />
+     <Compile Include="Assets\Scripts\Animation\heroAni.js" />
+     <Compile Include="Assets\Scripts\Animation\secHeroAni.js" />
      <Compile Include="Assets\Scripts\CameraFollow.js" />
      <Compile Include="Assets\Scripts\Enemymovement1.js" />
      <Compile Include="Assets\Scripts\Heromovement1.js" />
@@ -84,6 +95,7 @@
      <Compile Include="Assets\imported scripts\Heromovement.js" />
      <Compile Include="Assets\imported scripts\distancestp.js" />
      <Compile Include="Assets\imported scripts\secHeromovement.js" />
+     <Compile Include="Assets\onGUI.js" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
