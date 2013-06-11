@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Prefabsbysantu\Scripts\SpriteMovement.js">
+    <Files>
+      <File FileName="Assets\Prefabsbysantu\Scripts\FPS.js" Line="11" Column="1" />
+      <File FileName="Assets\Prefabsbysantu\Scripts\secSpriteMovement.js" Line="7" Column="27" />
+      <File FileName="Assets\Prefabsbysantu\Scripts\eneSpriteMovement.js" Line="7" Column="27" />
+      <File FileName="Assets\Prefabsbysantu\Scripts\SpriteMovement.js" Line="7" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

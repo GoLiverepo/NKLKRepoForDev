@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{0E66F141-7101-6CE1-495F-8F3A36DBBC57}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_GENERICS;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;UNITY_4_0_0;UNITY_4_0;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\3dplatforms\Imported\Scripts\Layerspawn.js" />
+     <Compile Include="Assets\3dplatforms\Imported\Scripts\NewPath.js" />
+     <Compile Include="Assets\3dplatforms\Imported\Scripts\platspawn.js" />
+     <Compile Include="Assets\3dplatforms\Imported\Scripts\platvisibility.js" />
+     <Compile Include="Assets\3dplatforms\Imported\Scripts\visibility.js" />
+     <Compile Include="Assets\Prefabsbysantu\Scripts\FPS.js" />
+     <Compile Include="Assets\Prefabsbysantu\Scripts\OnDead.js" />
+     <Compile Include="Assets\Prefabsbysantu\Scripts\PathSpawnFinal.js" />
+     <Compile Include="Assets\Prefabsbysantu\Scripts\Reset.js" />
+     <Compile Include="Assets\Prefabsbysantu\Scripts\SpriteMovement.js" />
+     <Compile Include="Assets\Prefabsbysantu\Scripts\VisibilityFinal.js" />
+     <Compile Include="Assets\Prefabsbysantu\Scripts\eneSpriteMovement.js" />
+     <Compile Include="Assets\Prefabsbysantu\Scripts\gameStart.js" />
+     <Compile Include="Assets\Prefabsbysantu\Scripts\heroSpawn.js" />
+     <Compile Include="Assets\Prefabsbysantu\Scripts\savePoint.js" />
+     <Compile Include="Assets\Prefabsbysantu\Scripts\secSpriteMovement.js" />
+     <Compile Include="Assets\Prefabsbysantu\Scripts\secheroSpawn.js" />
+     <Compile Include="Assets\Scripts\Animation\animation.js" />
+     <Compile Include="Assets\Scripts\Animation\enemeyAni.js" />
+     <Compile Include="Assets\Scripts\Animation\heroAni.js" />
+     <Compile Include="Assets\Scripts\Animation\secHeroAni.js" />
+     <Compile Include="Assets\Scripts\Camera\FitScreenResolution.js" />
+     <Compile Include="Assets\Scripts\CameraFollow.js" />
+     <Compile Include="Assets\Scripts\Enemymovement1.js" />
+     <Compile Include="Assets\Scripts\Escape.js" />
+     <Compile Include="Assets\Scripts\HUD GUI\HUDGui.js" />
+     <Compile Include="Assets\Scripts\Heromovement1.js" />
+     <Compile Include="Assets\Scripts\Movement.js" />
+     <Compile Include="Assets\Scripts\NavigationScript\ChallengeScript.js" />
+     <Compile Include="Assets\Scripts\NavigationScript\LoadHome.js" />
+     <Compile Include="Assets\Scripts\NavigationScript\OptionsScript.js" />
+     <Compile Include="Assets\Scripts\NavigationScript\PlayScript.js" />
+     <Compile Include="Assets\Scripts\NavigationScript\QuitScript.js" />
+     <Compile Include="Assets\Scripts\NavigationScript\StoreScript.js" />
+     <Compile Include="Assets\Scripts\NavigationScript\StoryScript.js" />
+     <Compile Include="Assets\Scripts\Playercontroller.js" />
+     <Compile Include="Assets\Scripts\Scripts\Herosprite.js" />
+     <Compile Include="Assets\Scripts\Scripts\enemybulletcollision.js" />
+     <Compile Include="Assets\Scripts\Scripts\enemyfire.js" />
+     <Compile Include="Assets\Scripts\Scripts\enemysprite.js" />
+     <Compile Include="Assets\Scripts\Scripts\functions.js" />
+     <Compile Include="Assets\Scripts\Scripts\herobulletcollision.js" />
+     <Compile Include="Assets\Scripts\Scripts\herofire.js" />
+     <Compile Include="Assets\Scripts\Scripts\permvlues.js" />
+     <Compile Include="Assets\Scripts\Scripts\raycast.js" />
+     <Compile Include="Assets\Scripts\Scripts\secHerosprite.js" />
+     <Compile Include="Assets\Scripts\TextScript\Move.js" />
+     <Compile Include="Assets\Scripts\WireFrames\AutoLoad.js" />
+     <Compile Include="Assets\Scripts\WireFrames\AutoText.js" />
+     <Compile Include="Assets\Scripts\WireFrames\Laalkamal-Neelkamal.js" />
+     <Compile Include="Assets\Scripts\WireFrames\MenuScript.js" />
+     <Compile Include="Assets\Scripts\WireFrames\Store.js" />
+     <Compile Include="Assets\Scripts\WireFrames\StoryBoardSkip.js" />
+     <Compile Include="Assets\Scripts\aniSprite.js" />
+     <Compile Include="Assets\Scripts\animSprite.js" />
+     <Compile Include="Assets\Scripts\enemyspawn.js" />
+     <Compile Include="Assets\Textures\HealthBarTextures\HealthBarScript.js" />
+     <Compile Include="Assets\imported scripts\Ememyai.js" />
+     <Compile Include="Assets\imported scripts\Enemybulletcollsion.js" />
+     <Compile Include="Assets\imported scripts\Enemyfire.js" />
+     <Compile Include="Assets\imported scripts\Enemymovement.js" />
+     <Compile Include="Assets\imported scripts\Enemyspawn.js" />
+     <Compile Include="Assets\imported scripts\Heroattack.js" />
+     <Compile Include="Assets\imported scripts\Herobulletcollsion.js" />
+     <Compile Include="Assets\imported scripts\Herofire.js" />
+     <Compile Include="Assets\imported scripts\Heromovement.js" />
+     <Compile Include="Assets\imported scripts\distancestp.js" />
+     <Compile Include="Assets\imported scripts\secHeromovement.js" />
+     <Compile Include="Assets\onGUI.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
