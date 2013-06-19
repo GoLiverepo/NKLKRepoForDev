@@ -1,0 +1,32 @@
+using UnityEngine;
+using System.Collections;
+
+public class MoveButtonDown : MonoBehaviour 
+{
+ 	public UIButton _Weapons;
+	public UIButton _HeroPowers;
+	
+	bool isClicked = false;
+	
+	
+	
+	void start()
+	{
+		//_Weapons = GameObject.Find("Weapons").GetComponent<UIButton>();
+		//_HeroPowers = GameObject.Find("Hero Powers").GetComponent<UIButton>();
+	}
+	
+	void OnSelect(bool isSelected)
+	{
+		if(isSelected)
+		{
+			TweenPosition.Begin(_Weapons.gameObject, 0.1f, new Vector3(-66,-47,0));
+			TweenPosition.Begin(_HeroPowers.gameObject, 0.1f, new Vector3(-66,-39,0));
+		}
+		else
+		{	
+			TweenPosition.Begin(_Weapons.gameObject, 0.1f, new Vector3(-66,-14,0));
+			TweenPosition.Begin(_HeroPowers.gameObject, 0.1f, new Vector3(-66,-34,0));
+		}
+	}
+}

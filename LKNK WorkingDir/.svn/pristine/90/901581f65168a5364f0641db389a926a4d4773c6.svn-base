@@ -1,0 +1,20 @@
+using UnityEngine;
+using System.Collections;
+
+public class Weapon : MonoBehaviour 
+{
+	
+	UISlicedSprite target;
+	
+	void Start () 
+	{
+		target = GameObject.Find("content_panel").GetComponent<UISlicedSprite>();
+		Debug.Log(target);
+	}
+	
+	void OnClick()
+	{
+		target.spriteName = "Highlight";
+		Debug.Log("Changed");
+	}
+}

@@ -1,0 +1,34 @@
+#pragma strict
+
+
+
+function Start () {
+
+}
+
+function Update () {
+
+}
+
+function OnCollisionEnter(collision : Collision){
+	if(collision.gameObject.tag == "enemybullet")
+	{
+	Destroy(collision.gameObject);
+	}
+	if(collision.gameObject.tag == "enemy")
+	{
+//	enemeyAni.enemy.CrossFade("Dead");
+	Destroy(collision.gameObject/*, enemeyAni.enemy.clip.length*/);
+	Destroy(this.gameObject);
+	distancestp.enmyfire = 0;
+	Enemyspawn.initenemy = 1;
+	permvlues.heroWalk= onGUI.herowalkSpeed;
+	permvlues.enemyWalk = onGUI.enemywalkSpeed;
+	permvlues.secHeroWalk = onGUI.herowalkSpeed;
+//	Movement.layerspeed = onGUI.Bgmove;
+	}
+	
+	if(collision.gameObject.tag == "floor"){
+	Destroy(this.gameObject);
+	}
+}

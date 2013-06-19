@@ -1,0 +1,25 @@
+using UnityEngine;
+using System.Collections;
+
+public class HealingPortion : MonoBehaviour 
+{
+	public GameObject prefab;
+	
+	void OnClick()
+	{
+		//Destroying the clones of other panel if exist
+		if(GameObject.Find("Weapons_Panel(Clone)"))
+			NGUITools.Destroy(GameObject.Find("Weapons_Panel(Clone)"));
+		if(GameObject.Find("DemGemPanel(Clone)"))
+			NGUITools.Destroy(GameObject.Find("DemGemPanel(Clone)"));
+		if(GameObject.Find("HeroPower_Panel(Clone)"))
+			NGUITools.Destroy(GameObject.Find("HeroPower_Panel(Clone)"));
+		if(GameObject.Find("HealingPortion_Panel(Clone)"))
+			NGUITools.Destroy(GameObject.Find("HealingPortion_Panel(Clone)"));
+		
+		//Calling the code to initialize the prefab and position/scale it.
+		GameObject  clone = NGUITools.AddChild(GameObject.Find("Panel"), prefab);
+		TweenPosition.Begin(clone, 0.1f, new Vector3(-13,-14,0));
+		TweenScale.Begin(clone, 0.1f, new Vector3(1.22f,0.92f,1.0f));
+	}
+}

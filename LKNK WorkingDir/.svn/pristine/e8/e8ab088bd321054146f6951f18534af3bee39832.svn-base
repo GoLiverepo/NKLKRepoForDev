@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\WireFrames\Store\DemGems.cs">
+    <Files>
+      <File FileName="Assets\Scripts\WireFrames\Store\DemGems.cs" Line="7" Column="2" />
+      <File FileName="Assets\Scripts\WireFrames\Store\HealingPortion.cs" Line="10" Column="73" />
+      <File FileName="Assets\Scripts\WireFrames\Store\HeroPowers.cs" Line="11" Column="68" />
+      <File FileName="Assets\Scripts\WireFrames\Store\Weapon.cs" Line="11" Column="64" />
+      <File FileName="Assets\Scripts\WireFrames\Store\HeroUpgrades.cs" Line="10" Column="77" />
+      <File FileName="Assets\Scripts\WireFrames\Store\BackBtn.cs" Line="8" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

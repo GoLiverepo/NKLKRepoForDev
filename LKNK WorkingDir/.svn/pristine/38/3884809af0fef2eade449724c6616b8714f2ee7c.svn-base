@@ -1,0 +1,23 @@
+using UnityEngine;
+using System.Collections;
+
+public class DemGems : MonoBehaviour 
+{
+	
+	//UISlicedSprite target;
+	public GameObject prefab;
+	
+	void Start () 
+	{
+		//target = GameObject.Find("content_panel").GetComponent<UISlicedSprite>();
+		//Debug.Log(target);
+	}
+	
+	void OnClick()
+	{
+		
+		GameObject  clone = NGUITools.AddChild(GameObject.Find("Panel"), prefab);
+		TweenPosition.Begin(clone, 1.0f, new Vector3(35,-15,0));
+		//NGUITools.AddSprite(clone, SciFi, "Button");
+	}
+}
